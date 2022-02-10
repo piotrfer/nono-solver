@@ -1,0 +1,28 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Nono solver PoC</title>
+  <!-- <meta name="description" content="A simple HTML5 Template for new projects."> 
+  <meta name="author" content="SitePoint"> -->
+
+  <!-- <link rel="icon" href="/favicon.ico">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png"> -->
+
+  <link rel="stylesheet" href="{{url_for('static', filename='css/styles.css')}}">
+
+</head>
+
+<body>
+  <h1>Nono solver PoC</h1>
+  <div class="nono-wrapper">
+    <canvas id="nono-game" height="400px" width="400px"></canvas>
+  </div>
+  <script src="{{url_for('static', filename='js/script.js')}}"></script>
+  <script src="{{url_for('static', filename='js/nono_data.js')}}"></script>
+</body>
+</html>
